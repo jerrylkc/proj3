@@ -1,6 +1,6 @@
 package com.fedorvlasov.lazylist;
 
-
+/// ggg
 public class Constant {
 	public static final String FIRST_COLUMN = "First";
 	public static final String FIRST_COLUMN2 = "First2";
