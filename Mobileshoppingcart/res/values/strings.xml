@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileShoppingCart</string>
+    <string name="spinner_title">dropdown</string>
+    <string name="title_activity_sellerpage">MobileShoppingCart</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_registration">MobileShoppingCart</string>
+
+</resources>

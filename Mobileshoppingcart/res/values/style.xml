@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="SkoletubeTheme" parent="Theme.Sherlock">
+    <item name="actionBarTabTextStyle">@style/Skoletube.Tab.Text</item>
+</style>
+
+<style name="Skoletube.Tab.Text" parent="Widget.Sherlock.ActionBar.TabText">
+    <item name="android:textSize">10sp</item>
+</style>
+	  
+</resources>

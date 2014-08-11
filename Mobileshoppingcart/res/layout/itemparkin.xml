@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+ <LinearLayout
+    android:id="@+id/textlayout1"  
+    android:layout_below="@+id/textlayout2" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+     
+  <TextView
+  	  android:id="@+id/itemcol1"
+  	  android:layout_marginBottom="10dip"
+	  android:layout_height="wrap_content"
+	  android:layout_width="wrap_content" 
+	  android:textStyle="bold"
+	  android:textColor="#FFFFFF"       
+	  android:layout_marginLeft="5dp"/>
+      
+    <TextView
+  	  android:id="@+id/itemcol2"
+	  android:layout_height="wrap_content"
+	  android:layout_width="wrap_content" 
+	  android:textStyle="bold"
+	  android:textColor="#FFFFFF"       
+	  android:layout_marginLeft="5dp"/>
+    
+    <TextView
+  	  android:id="@+id/itemcol3"
+	  android:layout_height="wrap_content"
+	  android:layout_width="wrap_content" 
+	  android:textStyle="bold"
+	  android:textColor="#FFFFFF"       
+	  android:layout_marginLeft="5dp"/>
+
+    <LinearLayout
+    android:layout_above="@+id/textlayout2" 
+    android:id="@+id/textlayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+  	 android:id="@+id/itemcol4"
+	 android:layout_height="wrap_content"
+	 android:layout_width="wrap_content" 
+	 android:textStyle="bold"
+	 android:gravity="left|center_vertical"
+	 android:layout_marginLeft="5dp" 
+	 android:textColor="#FFFFFF" />
+   <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+ <CheckBox
+    android:id="@+id/checkbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"            
+    android:button="@drawable/box"
+	android:gravity="right|center_vertical"
+    android:focusable="false"
+    android:focusableInTouchMode="false"  />
+</LinearLayout>
+    </LinearLayout>
+
+
+
+  <TextView
+        android:id="@+id/itemcode"
+	  android:layout_height="wrap_content"
+	  android:layout_width="wrap_content" 
+	  android:textStyle="bold"
+	  android:textColor="#FFFFFF"       
+        android:visibility="gone"
+        android:text="TextView" />
+</LinearLayout>
